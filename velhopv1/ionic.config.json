@@ -1,0 +1,13 @@
+{
+  "name": "velhopv1",
+  "app_id": "",
+  "v2": true,
+  "proxies": [{
+	"path": "/status/",
+	"proxyUrl": "http://carto.strasmap.eu/remote.amf.json/Bike.status"
+   },
+   {
+	"path": "/geometry/",
+	"proxyUrl": "http://carto.strasmap.eu/remote.amf.json/Bike.geometry"
+   }]
+}

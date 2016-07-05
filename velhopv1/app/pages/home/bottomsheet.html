@@ -1,0 +1,34 @@
+<div  [style.height.px]="height" [class]="classheight" (pan)="tapEvent($event)">
+	<div [class]="titleDivClass" [style.height.px]="lvl0height"> 
+		<button fab dark fab-right fab-fixe style="margin-top:-45px" [style.visibility]="btnVisibility"><ion-icon name="bicycle"></ion-icon></button>
+		<p class="headerTitle">{{title}}</p>
+		
+		 <ion-row center>
+			<ion-col width-50 class="headerBadge"><span>Velhop dispo <ion-badge item-right>{{vDispo}}</ion-badge></span></ion-col>
+			<ion-col width-34 class="headerBadge"><span>Place libre <ion-badge item-right>{{pDispo}}</ion-badge></span></ion-col>
+			<ion-col class="headerBadge" id="colTime"><span>5min</span></ion-col>
+		  </ion-row>
+
+		
+		<!--<ion-item>
+		  <ion-icon name="logo-twitter" item-left></ion-icon>
+		  Followers
+		  <ion-badge item-right>11</ion-badge>
+		</ion-item>
+		<ion-item>
+		  <ion-icon name="logo-twitter" item-left></ion-icon>
+		  Followers
+		  <ion-badge item-right>11</ion-badge>
+		</ion-item>-->
+	</div>
+	<div><p>
+	Velhop dispo <ion-badge item-right>{{vDispo}}</ion-badge><br>
+	Place libre <ion-badge item-right>{{pDispo}}</ion-badge><br>
+	cbAvailable: {{cbAvailable}}<br>
+	type: {{type}}<br>
+	emplacement: {{emplacement}}<br>
+	</p></div>
+</div>
+<div [class]="photoclass" [style.top.px]="topPhoto" [style.height.px]="photoHeight">
+	<img src="img/photoTest.JPG" height="100%">
+</div>

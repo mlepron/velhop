@@ -1,0 +1,183 @@
+.home {
+  
+}
+.home {
+  .toolbar {
+    .toolbar-background {
+      background: transparent;
+    }
+	position:fixed;
+	text-align:right;
+  }
+}
+
+#map_canvas{
+	position:fixed;
+	/* Firefox */
+    -moz-transition: all 0.5S ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.5S ease-out;
+    /* Opera */
+    -o-transition: all 0.5S ease-out;
+    /* Standard */
+    transition: all 0.5S ease-out;
+}
+
+.lvltest{
+	background-color:white;position:absolute;width:100%;z-index:10000;bottom:0px;left:0px;
+	 /* Firefox */
+    -moz-transition: all 0.5S ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.5S ease-out;
+    /* Opera */
+    -o-transition: all 0.5S ease-out;
+    /* Standard */
+    transition: all 0.5S ease-out;
+}
+
+.lvlfreeheight{
+	background-color:white;position:absolute;width:100%;z-index:10000;bottom:0px;left:0px;
+}
+
+.lvl0height{
+	background-color:white;position:absolute;width:100%;z-index:10000;bottom:0px;left:0px;
+	height: 90px;
+	 /* Firefox */
+    -moz-transition: all 0.2S ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2S ease-in;
+    /* Opera */
+    -o-transition: all 0.2S ease-in;
+    /* Standard */
+    transition: all 0.2S ease-in;
+}
+
+
+.lvl1height{
+	background-color:white;position:absolute;width:100%;z-index:10000;bottom:0px;left:0px;
+	height: 90px;
+	 /* Firefox */
+    -moz-transition: all 0.2S ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2S ease-in;
+    /* Opera */
+    -o-transition: all 0.2S ease-in;
+    /* Standard */
+    transition: all 0.2S ease-in;
+}
+
+.lvl0class {
+	p {
+		margin: 0;
+	};
+	button{
+		background-color:#4CAF50;
+		color:white;
+	}
+	ion-badge{
+		background-color:#4CAF50;
+		color:white;
+	}
+	#colTime{
+		text-align:right;
+		padding-right:13px;
+	}
+	padding:15px;
+	background-color: none;
+    /* Firefox */
+    -moz-transition: all 0.2S ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2S ease-in;
+    /* Opera */
+    -o-transition: all 0.2S ease-in;
+    /* Standard */
+    transition: all 0.2S ease-in;
+}
+.lvl1class{
+	.headerBadge{
+		display:none;
+		/* Firefox */
+		-moz-transition: all 0.2S ease-in;
+		/* WebKit */
+		-webkit-transition: all 0.2S ease-in;
+		/* Opera */
+		-o-transition: all 0.2S ease-in;
+		/* Standard */
+		transition: all 0.2S ease-in;
+	}
+	.headerTitle{
+		font-size:1.7em;
+		margin-top:9px;
+		/* Firefox */
+		-moz-transition: all 0.2S ease-in;
+		/* WebKit */
+		-webkit-transition: all 0.2S ease-in;
+		/* Opera */
+		-o-transition: all 0.2S ease-in;
+		/* Standard */
+		transition: all 0.2S ease-in;
+	}
+	p {
+		margin: 0;
+		color: white;
+	};
+	button{
+		background-color:white;
+		color:#4CAF50;
+	}
+	ion-badge{
+		background-color:white;
+		color:#4CAF50;
+	}
+	color: white;
+	padding:15px;
+
+	background-color: #4CAF50;
+    /* Firefox */
+    -moz-transition: all 0.2S ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2S ease-in;
+    /* Opera */
+    -o-transition: all 0.2S ease-in;
+    /* Standard */
+    transition: all 0.2S ease-in;
+}
+
+.modallvl0 {
+	display:none;
+	height:0;
+}
+
+.modallvl1 {
+	background-color:white;position:absolute;width:100%;z-index:10000;bottom:0px;left:0px;
+}
+
+.photofree{
+	position:absolute;
+	z-index:9999;
+	background-color:blue;
+	width:100%;
+	/* Firefox */
+    -moz-transition: all 0.01 ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.01S ease-out;
+    /* Opera */
+    -o-transition: all 0.01S ease-out;
+    /* Standard */
+    transition: all 0.01S ease-out;
+}
+
+.photo{
+	position:absolute;
+	z-index:9999;
+	background-color:blue;
+	width:100%;
+	/* Firefox */
+    -moz-transition: all 0.5S ease-out;
+    /* WebKit */
+    -webkit-transition: all 0.5S ease-out;
+    /* Opera */
+    -o-transition: all 0.5S ease-out;
+    /* Standard */
+    transition: all 0.5S ease-out;
+}

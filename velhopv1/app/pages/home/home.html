@@ -1,0 +1,40 @@
+<style>
+	#map_canvas {
+    width: 100%;
+}
+</style>
+<!--
+<ion-navbar *navbar>
+  <ion-title>
+    Velhop
+  </ion-title>
+</ion-navbar>-->
+
+<ion-content class="home">
+	<!--<ion-toolbar>
+	  <ion-title>Toolbar
+	   <button clear>
+      <ion-icon name='menu' is-active="false"></ion-icon>
+    </button></ion-title>
+	  
+	</ion-toolbar>-->
+
+  <div id="map_canvas" [style.height.px]="heightCanvas" ></div>
+</ion-content>
+
+<bottom-sheet title='{{title}}' useState='{{bottomSheetOpen}}' vDispo='{{vDispo}}' cbAvailable='{{cbAvailable}}'
+	pDispo='{{pDispo}}' emplacement='{{vEmplacement}}' type='{{vType}}' (setLvl1)='toLvl1Event($event.results)' (canvasResize)='resizeCanvas($event.bottomSheetHeight)' ></bottom-sheet>
+<!--
+<div id="modallvl1" class="modallvl1" scrollX="true" (pan)="tapEvent($event)">
+	<p>{{title}}</p>
+</div>-->
+<!--
+<ion-toolbar position="bottom">
+  <p>Ash, Misty, Brock</p>
+  <ion-buttons end>
+    <button royal>
+      Send
+      <ion-icon name="send"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar> -->
